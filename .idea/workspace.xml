@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a73bffd5-a67f-437e-b346-7c61d494c3bc" name="Default Changelist" comment="" />
+    <list default="true" id="a73bffd5-a67f-437e-b346-7c61d494c3bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/headlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/headlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/imag/ban.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/ban.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/imag/band.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/band.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/imag/bandi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/bandi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/imag/bandit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/bandit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/imag/bandity.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/bandity.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/imag/icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +27,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bTxyiQnQCrHwzEkOZN1G65flHH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,16 +67,24 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил полупрозрачные конфигурации слайдера через css,Бордюры и убрал уродский белый фон. установил алтарь во имя господа нашего,на бэкграунд." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил полупрозрачные конфигурации слайдера через css,Бордюры и убрал уродский белый фон. установил алтарь во имя господа нашего,на бэкграунд." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1591547429606">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591547429606" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1588670795920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588670795920" />
-    <state x="379" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1591026725445">
+    <state x="379" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1591546929943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1590868111876" />
-    <state x="379" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591026725445" />
+    <state x="379" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591546929943" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589136012728">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

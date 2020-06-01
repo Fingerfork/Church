@@ -6,9 +6,9 @@
 {% endblock %}
 
 {% block content %}
-<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+<link rel="stylesheet" href="{% static 'styles.css' %}">
 <header class="slide">
-    <div class="container-fluid">
+    <div class="container-flex">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
@@ -19,7 +19,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{% static 'imag/ban.jpg' %}" alt="" class="d-block w-100">
+                    <img src="{% static 'imag/ban.jpg' %}" alt="" class="d-block h-100 w-100">
                 </div>
                 <div class="carousel-item ">
                     <img src="{% static 'imag/band.jpg' %}" alt="" class="d-block w-100">

@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+
+{% load static %}
+{% block title %}Регистрация{% endblock %}
+{% block content %}
+    <form action="{% url 'register' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <div class="form-group g-recaptcha" data-sitekey="6Le5-c0SAAAAANkXk7_zKgMpm"></div>
+        {% if messages %}
+            {% for message in messages %}
+                {{ message }}
+            {% endfor %}
+        {% endif %}
+        <input type="submit" value="Зарегистрироваться">
+    </form>
+{% endblock %}
+
+
+

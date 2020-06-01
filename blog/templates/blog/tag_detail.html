@@ -1,0 +1,11 @@
+{% extends 'blog/base.html' %}
+{% block title %}
+    {{tag.title}} - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <h1 style="font-style:italic" class="mb-5">Молитва о Мирском,"{{ tag.title|title }} "Пес:</h1>
+    {% for post in tag.posts.all %}
+        {% include 'blog/includes/post_card_template.html'%}
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'blog/base.html'%}
+{% load bootstrap4 %}
+{% block title %}Поменять потемки грешной души{% endblock %}
+
+{% block content %}
+
+<h2>Поменять потемки грешной души,раба- {{ user.username }}</h2>
+<form method="post">
+    {% csrf_token %}
+    {% bootstrap_form form layout='horizontal' %}
+
+    {% buttons submit='Спаси и Сохрани' %}{% endbuttons %}
+</form>
+
+
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'blog/base.html'%}
+{%load static%}
+{% block title %}
+            Список Объявлений
+{% endblock %}
+
+{% block content %}
+    <img style="float: left" width="125px" height="95px" src="{% static 'imag/pop.jpg' %}" >
+    <img style="float: right" width="125px" height="95px" src="{% static 'imag/popa.jpg' %}" >
+    <h1 style="font-style:italic" class="mb-5">Молитвы:</h1>
+
+    {% for post in page_object.object_list %}
+        {% include 'blog/includes/post_card_template.html'%}
+
+    {% endfor %}
+{% endblock %}

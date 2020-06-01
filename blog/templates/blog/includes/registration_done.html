@@ -1,0 +1,8 @@
+{% extends "blog/base.html" %}
+
+{% block title %}Хрони тебя Господь{% endblock %}
+
+{% block content %}
+    <h1 style="font-style:italic" >Хрони тебя Господь {{ new_user.first_name }}!</h1>
+    <p style="font-style:italic" >Ваш аккаунт успешно создан. Теперь ты можешь <a href="{% url 'login' %}" > войти,Пес!</a>.</p>
+{% endblock %}

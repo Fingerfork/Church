@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+{% block title %}
+    Передумать в Исповедании "{{ post.title|title}}" - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <form action="{{ post.get_delete_url }}" method="post">
+        {% csrf_token %}
+        <h2 style="font-style:italic">Господь все видит та знает,Передумать в Исповедании  <b>"{{post.title|title}}"</b> Пес? </h2>
+        <a style="font-style:italic" href="{{ post.get_absolute_url }}">Выйти</a>
+        <button type="submit" name="button" class="btn btn-danger">Передумать в Исповедании /button>
+    </form>
+{% endblock %}

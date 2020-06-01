@@ -1,0 +1,12 @@
+{%extends 'blog/base.html' %}
+{% block title %}
+    Тайно исповедальные молитвы господу нашему Отцу и Сыну и Святому Духу,ныниипреснововекивеков!- {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <h1 class="mb-5">Молитвы:</h1>
+
+    {% for tag in tags %}
+        <h3><a href="{{ tag.get_absolute_url }}"> {{ tag.title }}</a></h3>
+    {% endfor %}
+{% endblock %}

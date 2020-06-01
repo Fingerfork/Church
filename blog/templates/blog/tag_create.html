@@ -1,0 +1,25 @@
+{% extends 'blog/base.html' %}
+{% block title %}
+    Поведать господу,О Чем Мирском- {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <form action="{% url 'tag_create_url'%}" method="post">
+        {% csrf_token %}
+        {% for field in form %}
+            <div class="form-group">
+                {% if field.errors %}
+                <div class="alert alert-danger">
+                    {{ field.errors}}
+                </div>
+                {% endif %}
+
+                {{ field.label }}
+                {{ field }}
+            </div>
+        {% endfor %}
+
+
+        <button style="font-style:italic" type="submit" class="btn btn-primary">Поведать господу,О Чем Мирском</button>
+    </form>
+{% endblock %}

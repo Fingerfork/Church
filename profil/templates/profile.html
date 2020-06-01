@@ -1,0 +1,18 @@
+{% extends 'blog/base.html'%}
+
+{% block title %}
+            Покои Грешника
+{% endblock %}
+
+{% block content %}
+    <h5 class="mb-5">Покои грешника, {{ user.username }}</h5>
+    <a href="{% url 'profile_change'%}">Поменять Устои</a>
+    <a href="{% url 'password_change'%}">Править Богоугодные слова</a>
+    {% if user.first_name and user.last_name %}
+    <p>Здравствуйте , {{user.first_name }} {{ user.last_name }}!</p>
+    {%else%}
+    <p>Хрони Господъ!</p>
+
+    {% endif %}
+    <h5>Ваши Молитвы</h5>
+{% endblock %}

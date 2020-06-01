@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+{% block title %}
+    Помолиться господу,о прощении,О Чем Мирском "{{ tag.title|title}}" - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <form action="{{ tag.get_delete_url }}" method="post">
+        {% csrf_token %}
+        <h2 style="font-style:italic">Господь все ведает,помолиться О Забытии О чем Мирском <b>"{{tag.title|title}}"</b> Пес? </h2>
+        <a style="font-style:italic" href="{{ tag.get_absolute_url }}">Изыйди с Миром</a>
+        <button style="font-style:italic" type="submit" name="button" class="btn btn-danger">Простить О чем Мирском</button>
+    </form>
+{% endblock %}

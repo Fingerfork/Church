@@ -34,6 +34,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectId" id="1bTxyiQnQCrHwzEkOZN1G65flHH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,10 +73,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил полупрозрачные конфигурации слайдера через css,Бордюры и убрал уродский белый фон. установил алтарь во имя господа нашего,на бэкграунд." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1591547429606">
+    <state x="49" y="0" key="CommitChangelistDialog2" timestamp="1591547606992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591547429606" />
+    <state x="49" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591547606992" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1588670795920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

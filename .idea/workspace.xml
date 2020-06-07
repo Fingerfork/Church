@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a73bffd5-a67f-437e-b346-7c61d494c3bc" name="Default Changelist" comment="">
+    <list default="true" id="a73bffd5-a67f-437e-b346-7c61d494c3bc" name="Default Changelist" comment="Добавил полупрозрачные конфигурации слайдера через css,Бордюры и убрал уродский белый фон. установил алтарь во имя господа нашего,на бэкграунд.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/headlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/headlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imag/ban.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/ban.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imag/band.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/band.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imag/bandi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/bandi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imag/bandit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/bandit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imag/bandity.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/bandity.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imag/icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/imag/icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +20,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="f" />
+        <option value="Figerforck &lt;bron-1994@yandex.ru&gt;" />
         <option value="master" />
       </list>
     </option>
@@ -66,26 +58,64 @@
       <option name="presentableId" value="Default" />
       <updated>1588670147272</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1591547500279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591547500279</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил полупрозрачные конфигурации слайдера через css,Бордюры и убрал уродский белый фон. установил алтарь во имя господа нашего,на бэкграунд.">
+      <created>1591547656979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591547656979</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
     <MESSAGE value="Добавил полупрозрачные конфигурации слайдера через css,Бордюры и убрал уродский белый фон. установил алтарь во имя господа нашего,на бэкграунд." />
     <option name="LAST_COMMIT_MESSAGE" value="Добавил полупрозрачные конфигурации слайдера через css,Бордюры и убрал уродский белый фон. установил алтарь во имя господа нашего,на бэкграунд." />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="49" y="0" key="CommitChangelistDialog2" timestamp="1591547606992">
+    <state x="49" y="0" key="CommitChangelistDialog2" timestamp="1591547852652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="49" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591547606992" />
+    <state x="49" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591547852652" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1591548155829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1591548155829" />
+    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1591548155836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1591548155836" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1588670795920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588670795920" />
-    <state x="379" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1591546929943">
+    <state x="379" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1591547817131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1590868111876" />
-    <state x="379" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591546929943" />
+    <state x="379" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591547817131" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589136012728">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
